@@ -1,12 +1,10 @@
 import "./App.css";
-import Landing from "./components/Layout/Landing";
-import Navbar from "./components/Layout/Navbar";
+import Navbar from "./components/Layout/Nav/Navbar";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Landing />
     </>
   );
 };
