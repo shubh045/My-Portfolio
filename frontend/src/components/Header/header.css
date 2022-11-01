@@ -1,0 +1,43 @@
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.bio p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 25px;
+}
+
+.bio p:nth-child(2){
+    font-size: 2.5rem;
+}
+
+.btns {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 2rem;
+}
+
+.btns a{
+    padding: 0.9rem 1.9rem;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.btns a:nth-child(1), .btns a:nth-child(2):hover{
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btns a:nth-child(1):hover{
+    background-color: var(--color-primary);
+    color: #fff;
+}
