@@ -39,7 +39,7 @@ header{
 
 .btns a:nth-child(1):hover{
     background-color: var(--color-primary);
-    color: #fff;
+    color: var(--color-white);
 }
 
 .me{
