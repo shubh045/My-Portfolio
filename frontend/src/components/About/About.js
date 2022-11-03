@@ -36,7 +36,9 @@ const About = () => {
               sunt fugiat veritatis unde obcaecati in dolor eligendi voluptatem
               nulla. Deserunt, repellat ratione!
             </p>
+            
             <a href="#">Let's talk</a>
+          
           </div>
         </div>
       </section>
