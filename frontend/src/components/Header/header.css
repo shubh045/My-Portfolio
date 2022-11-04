@@ -29,6 +29,7 @@ header{
     background-color: var(--color-primary);
     cursor: pointer;
     border-radius: 0.3rem;
+    color: var(--color-white);
 }
 
 .btns a:nth-child(1), .btns a:nth-child(2):hover{

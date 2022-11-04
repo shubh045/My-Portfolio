@@ -99,6 +99,7 @@ section {
   background-color: var(--color-primary);
   cursor: pointer;
   border-radius: 0.3rem;
+  color: var(--color-white);
 }
 
 .abt-right a:hover{
