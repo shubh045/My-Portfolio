@@ -1,0 +1,137 @@
+.contact-section {
+  margin-top: 5rem;
+}
+
+.contact-section h5 {
+  color: var(--color-light);
+  text-align: center;
+}
+
+.contact-section h2 {
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  gap: 5rem;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  background: var(--color-primary-variant);
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+
+.contact:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+}
+
+.contact-right,
+.in-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 40%;
+}
+
+.contact-right button {
+  width: 8rem;
+  padding: 0.5rem;
+  background: var(--color-primary);
+  border: 2px solid transparent;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.contact-right button:hover {
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.in-fields {
+  width: 100%;
+}
+
+.contact-content h5,
+.contact-content h4 {
+  text-align: center;
+}
+
+.contact-icon,
+.contact-content h5,
+.contact-content h4 {
+  color: var(--color-white);
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+}
+
+.contact a {
+  color: var(--color-primary);
+}
+
+.in-fields input,
+.in-fields textarea {
+  padding: 1.3rem;
+  border: 3px solid var(--color-bg-variant);
+  background: transparent;
+  border-radius: 1rem;
+  color: var(--color-light);
+}
+
+.in-fields textarea {
+  resize: none;
+}
+
+/* Responsive design */
+
+@media (max-width: 1024px) {
+  .contacts {
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .contact {
+    width: 60%;
+    margin: auto auto;
+  }
+
+  .contact-right {
+    width: 70%;
+    margin: auto auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    width: 90%;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact,
+  .contact-right {
+    width: 100%;
+  }
+}
