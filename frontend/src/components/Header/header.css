@@ -110,3 +110,14 @@ header{
         width: 100%;
     }
 }
+
+@media (max-width: 365px){
+    .btns{
+        flex-direction: column;
+    }
+
+    .btns a{
+        text-align: center;
+        padding: 0.9rem 1rem;
+    }
+}

@@ -88,3 +88,24 @@
     width: 100%;
   }
 }
+
+@media (max-width: 365px){
+  .skills__section{
+    padding: 1rem;
+  }
+
+  .skills__section > div{
+    padding: 1rem 0.5rem;
+    margin: auto auto;
+  }
+
+  .skill{
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .skills > div{
+    justify-content: center;
+
+  }
+}

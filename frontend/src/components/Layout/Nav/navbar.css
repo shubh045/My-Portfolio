@@ -27,3 +27,13 @@ nav a:hover{
     background: rgba(0, 0, 0, 0.3);
     color: var(--color-white);
 }
+
+/* Responsive design */
+
+@media (max-width: 365px){
+    nav{
+        gap: 0.3rem;
+        padding: 0.7rem 1rem;
+        bottom: 1rem;
+    }
+}
