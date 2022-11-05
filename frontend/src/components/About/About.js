@@ -7,7 +7,7 @@ import { AiOutlineProject } from "react-icons/ai";
 const About = () => {
   return (
     <>
-      <section className="about">
+      <section className="about" id="about">
         <h5>Get to know</h5>
         <h5>About me</h5>
         <div className="abt-me">
