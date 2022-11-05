@@ -1,0 +1,99 @@
+.experience-section {
+  margin-top: 5rem;
+}
+
+.experience-section h5:first-child {
+  color: var(--color-light);
+  font-size: 15px;
+}
+
+.experience-section h5 {
+  text-align: center;
+  color: var(--color-primary);
+  font-size: 25px;
+}
+
+.experiences {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.company {
+  background-color: var(--color-primary-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+}
+
+.company:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-primary-variant);
+}
+
+.exp-list {
+  margin-top: 2rem;
+}
+
+.company ul li {
+  margin-top: 0.8rem;
+  color: var(--color-white);
+  font-size: 1.05rem;
+  display: grid;
+  gap: 0.4rem;
+  grid-template-columns: 25px 1fr;
+}
+
+#contribution {
+  color: var(--color-primary);
+}
+
+.exp-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+
+.role {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.role h3 {
+  color: var(--color-primary);
+}
+
+.exp-head small {
+  color: var(--color-light);
+  font-size: 1rem;
+}
+
+/* Responsive design */
+
+@media (max-width: 1024px) {
+  .experiences {
+    grid-template-columns: 1fr;
+  }
+
+  .company {
+    width: 80%;
+    margin: auto auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .company {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .role {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
