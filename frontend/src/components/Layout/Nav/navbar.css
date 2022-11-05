@@ -28,6 +28,11 @@ nav a:hover{
     color: var(--color-white);
 }
 
+.active{
+    background: rgba(0, 0, 0, 0.3);
+    color: var(--color-white);
+}
+
 /* Responsive design */
 
 @media (max-width: 365px){
