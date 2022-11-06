@@ -4,6 +4,8 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import ContactCard from "./ContactCard";
+import { useState } from "react";
+import axios from "axios";
 import "./contact.css";
 
 const Contact = () => {
@@ -34,7 +36,29 @@ const Contact = () => {
     },
   ];
 
-  console.log(contacts[0]);
+  const [emailContent, setEmailContent] = useState({
+    email: "",
+    name: "",
+    message: "",
+  });
+
+  const changeHandler = (event) => {
+    const { name, value } = event.target;
+    setEmailContent({
+      ...emailContent,
+      [name]: value,
+    });
+  };
+
+  const submitForm = async (e) => {
+    e.preventDefault();
+    const data = emailContent;
+    const response = await axios.post(
+      "http://localhost:8000/api/sendemail",
+      data
+    );
+    console.log(response.data);
+  };
 
   return (
     <>
@@ -54,20 +78,34 @@ const Contact = () => {
               />
             ))}
           </div>
-          <div className="contact-right">
+          <form onSubmit={submitForm} className="contact-right">
             <div className="in-fields">
-              <input type="text" placeholder="Your Full Name" />
-              <input type="email" placeholder="Your Email" />
+              <input
+                type="text"
+                name="name"
+                value={emailContent.name}
+                placeholder="Your Full Name"
+                onChange={changeHandler}
+              />
+              <input
+                type="email"
+                name="email"
+                value={emailContent.email}
+                placeholder="Your Email"
+                onChange={changeHandler}
+              />
               <textarea
                 name="message"
+                value={emailContent.msg}
                 id="message"
                 cols="30"
                 rows="10"
                 placeholder="Your Message"
+                onChange={changeHandler}
               />
             </div>
-            <button>Send Message</button>
-          </div>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
       </section>
     </>
