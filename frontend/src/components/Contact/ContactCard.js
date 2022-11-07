@@ -1,5 +1,4 @@
 const ContactCard = (props) => {
-  console.log(props.icon);
   return (
     <article className="contact" key={props.key}>
       <props.icon className="contact-icon" />

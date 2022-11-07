@@ -1,13 +1,13 @@
 import { SiCodechef, SiHackerrank, SiGithub } from "react-icons/si";
-import './footer.css';
+import "./footer.css";
 
 const Footer = () => {
   return (
     <>
-      <footer className="footer-section">
+      <footer className="footer-section" id="footer">
         <h1>Shubham</h1>
         <div className="permalinks">
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>

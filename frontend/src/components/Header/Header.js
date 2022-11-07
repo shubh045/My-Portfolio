@@ -6,7 +6,7 @@ import Socials from "./Socials";
 const Header = () => {
   return (
     <>
-      <header>
+      <header id="home">
         <div className="bio">
           <p>Hello I'm</p>
           <p>Shubham</p>
@@ -18,7 +18,9 @@ const Header = () => {
           <div className="my-img">
             <img src={MyImg} alt="me" />
           </div>
-          <a href="#" id="scroll">Scroll Down</a>
+          <a href="#footer" id="scroll">
+            Scroll Down
+          </a>
         </div>
       </header>
     </>

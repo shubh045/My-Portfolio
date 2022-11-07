@@ -8,20 +8,20 @@ import { useState } from "react";
 import "./navbar.css";
 
 const Navbar = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("");
 
   return (
     <>
       <nav>
         <a
-          href="#"
-          onClick={() => setActiveNav("#")}
-          className={activeNav === "#" ? "active" : ""}
+          href={activeNav}
+          onClick={() => setActiveNav("#home")}
+          className={activeNav === "#home" ? "active" : ""}
         >
           <AiOutlineHome />
         </a>
         <a
-          href="#about"
+          href={activeNav}
           onClick={() => setActiveNav("#about")}
           className={activeNav === "#about" ? "active" : ""}
         >
