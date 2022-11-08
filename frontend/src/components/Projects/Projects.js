@@ -9,7 +9,7 @@ const Projects = () => {
       id: 1,
       img: PortfolioImg,
       title: "My Portfolio Website",
-      desc: "This is a portfolio website showing my skills, education etc. This website is developed using Reactjs and CSS.",
+      desc: "This is a portfolio website showing my skills, education etc. This website is developed using Reactjs, CSS and Nodejs.",
       github: "https://github.com/shubh045/My-Portfolio",
       live: "https://shubh045.github.io/My-Portfolio/",
     },
