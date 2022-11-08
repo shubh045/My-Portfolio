@@ -28,18 +28,20 @@ const About = () => {
               <AboutCard
                 icon={AiOutlineProject}
                 value="Projects"
-                time="3+ completed"
+                time="2 completed"
               />
             </div>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
-              reiciendis quod, commodi aliquam, ratione suscipit numquam eveniet
-              sunt fugiat veritatis unde obcaecati in dolor eligendi voluptatem
-              nulla. Deserunt, repellat ratione!
+              I am an Engineering student pursuing mine under graduation degree
+              in the Computer science branch. I am always ready to learn new
+              things and technologies. I know C/C++ and I have basic
+              understanding of Data Structures & Algorithm. I am also good in
+              Frontend development and have a good knowledge of Backend
+              development also. I have one month internship experience with
+              Block8, in MERN stack technology.
             </p>
-            
+
             <Link to="contact">Let's Talk</Link>
-          
           </div>
         </div>
       </section>
