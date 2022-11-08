@@ -1,4 +1,5 @@
 import { SiCodechef, SiHackerrank, SiGithub } from "react-icons/si";
+import { Link } from "react-scroll";
 import "./footer.css";
 
 const Footer = () => {
@@ -7,12 +8,78 @@ const Footer = () => {
       <footer className="footer-section" id="footer">
         <h1>Shubham</h1>
         <div className="permalinks">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            isDynamic
+            duration={500}
+            offset={-500}
+            className="footer-nav"
+          >
+            Home
+          </Link>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            isDynamic
+            duration={500}
+            offset={-500}
+            className="footer-nav"
+          >
+            About
+          </Link>
+          <Link
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            isDynamic
+            duration={500}
+            offset={-500}
+            className="footer-nav"
+          >
+            Skills
+          </Link>
+          <Link
+            activeClass="active"
+            to="Experience"
+            spy={true}
+            smooth={true}
+            isDynamic
+            duration={500}
+            offset={-500}
+            className="footer-nav"
+          >
+            Experience
+          </Link>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            isDynamic
+            duration={500}
+            offset={-500}
+            className="footer-nav"
+          >
+            Projects
+          </Link>
+          <Link
+            activeClass="active"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            isDynamic
+            duration={500}
+            offset={-500}
+            className="footer-nav"
+          >
+            Contact
+          </Link>
         </div>
         <div className="social-icons">
           <a href="https://www.codechef.com/users/zer_0o" target="_blank">

@@ -4,57 +4,74 @@ import { AiOutlineProject } from "react-icons/ai";
 import { AiOutlineContacts } from "react-icons/ai";
 import { AiOutlineExperiment } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { useState } from "react";
+import { Link } from "react-scroll";
 import "./navbar.css";
 
 const Navbar = () => {
-  const [activeNav, setActiveNav] = useState("");
-
   return (
     <>
       <nav>
-        <a
-          href={activeNav}
-          onClick={() => setActiveNav("#home")}
-          className={activeNav === "#home" ? "active" : ""}
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          isDynamic
+          duration={500}
+          offset={-500}
         >
           <AiOutlineHome />
-        </a>
-        <a
-          href={activeNav}
-          onClick={() => setActiveNav("#about")}
-          className={activeNav === "#about" ? "active" : ""}
+        </Link>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-500}
         >
           <AiOutlineUser />
-        </a>
-        <a
-          href="#skills"
-          onClick={() => setActiveNav("#skills")}
-          className={activeNav === "#skills" ? "active" : ""}
+        </Link>
+        <Link
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-500}
         >
           <BiBook />
-        </a>
-        <a
-          href="#experience"
-          onClick={() => setActiveNav("#experience")}
-          className={activeNav === "#experience" ? "active" : ""}
+        </Link>
+        <Link
+          activeClass="active"
+          to="experience"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-500}
         >
           <AiOutlineExperiment />
-        </a>
-        <a
-          href="#projects"
-          onClick={() => setActiveNav("#projects")}
-          className={activeNav === "#projects" ? "active" : ""}
+        </Link>
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-500}
         >
           <AiOutlineProject />
-        </a>
-        <a
-          href="#contact"
-          onClick={() => setActiveNav("#contact")}
-          className={activeNav === "#contact" ? "active" : ""}
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-500}
         >
           <AiOutlineContacts />
-        </a>
+        </Link>
       </nav>
     </>
   );
