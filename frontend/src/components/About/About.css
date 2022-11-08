@@ -102,40 +102,39 @@ section {
   color: var(--color-white);
 }
 
-.abt-right a:hover{
-    background-color: transparent;
-    border: 2px solid var(--color-primary);
-    color: var(--color-primary);
+.abt-right a:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
 }
-
 
 /* Responsive design */
 
-@media (max-width: 1024px){
-  .abt-me{
+@media (max-width: 1024px) {
+  .abt-me {
     grid-template-columns: 1fr;
     gap: 0;
   }
 
-  .about-me{
-    width: 50%;
+  .about-me {
+    width: 40%;
     margin: 2rem auto 4rem;
-  }  
+  }
 }
 
-@media (max-width: 600px){
-  .about-me{
+@media (max-width: 700px) {
+  .about-me {
     width: 70%;
     margin: 0 auto 3rem;
-  } 
-  
-  .abt__card{
+  }
+
+  .abt__card {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
   }
 
-  .abt-right p{
+  .abt-right p {
     text-align: center;
   }
 
