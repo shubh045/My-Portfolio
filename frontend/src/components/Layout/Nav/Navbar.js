@@ -18,7 +18,7 @@ const Navbar = () => {
           smooth={true}
           isDynamic
           duration={500}
-          offset={-500}
+          offset={-300}
         >
           <AiOutlineHome />
         </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-500}
+          offset={-300}
         >
           <AiOutlineUser />
         </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-500}
+          offset={-300}
         >
           <BiBook />
         </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-500}
+          offset={-300}
         >
           <AiOutlineExperiment />
         </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-500}
+          offset={-300}
         >
           <AiOutlineProject />
         </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-500}
+          offset={-300}
         >
           <AiOutlineContacts />
         </Link>

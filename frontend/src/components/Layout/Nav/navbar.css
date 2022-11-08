@@ -21,6 +21,7 @@ nav a{
     display: flex;
     color: var(--color-light);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 nav a:hover{

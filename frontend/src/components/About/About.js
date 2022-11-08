@@ -3,6 +3,7 @@ import MyImg from "../../assets/img/My-img.jpg";
 import AboutCard from "./AboutCard";
 import { AiOutlineExperiment } from "react-icons/ai";
 import { AiOutlineProject } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -37,7 +38,7 @@ const About = () => {
               nulla. Deserunt, repellat ratione!
             </p>
             
-            <a href="#">Let's talk</a>
+            <Link to="contact">Let's Talk</Link>
           
           </div>
         </div>

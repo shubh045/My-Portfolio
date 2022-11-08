@@ -8,76 +8,22 @@ const Footer = () => {
       <footer className="footer-section" id="footer">
         <h1>Shubham</h1>
         <div className="permalinks">
-          <Link
-            activeClass="active"
-            to="home"
-            spy={true}
-            smooth={true}
-            isDynamic
-            duration={500}
-            offset={-500}
-            className="footer-nav"
-          >
+          <Link to="home" className="footer-nav">
             Home
           </Link>
-          <Link
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            isDynamic
-            duration={500}
-            offset={-500}
-            className="footer-nav"
-          >
+          <Link to="about" className="footer-nav">
             About
           </Link>
-          <Link
-            activeClass="active"
-            to="skills"
-            spy={true}
-            smooth={true}
-            isDynamic
-            duration={500}
-            offset={-500}
-            className="footer-nav"
-          >
+          <Link to="skills" className="footer-nav">
             Skills
           </Link>
-          <Link
-            activeClass="active"
-            to="Experience"
-            spy={true}
-            smooth={true}
-            isDynamic
-            duration={500}
-            offset={-500}
-            className="footer-nav"
-          >
+          <Link to="Experience" className="footer-nav">
             Experience
           </Link>
-          <Link
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            isDynamic
-            duration={500}
-            offset={-500}
-            className="footer-nav"
-          >
+          <Link to="projects" className="footer-nav">
             Projects
           </Link>
-          <Link
-            activeClass="active"
-            to="Contact"
-            spy={true}
-            smooth={true}
-            isDynamic
-            duration={500}
-            offset={-500}
-            className="footer-nav"
-          >
+          <Link to="Contact" className="footer-nav">
             Contact
           </Link>
         </div>
