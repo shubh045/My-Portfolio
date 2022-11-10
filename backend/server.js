@@ -12,9 +12,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Route
-app.get("/", (req, res) => {
-  res.send("Home page");
-});
 
 app.post("/api/sendemail", async (req, res) => {
   const { email, name, message } = req.body;
@@ -25,7 +22,8 @@ app.post("/api/sendemail", async (req, res) => {
     const reply_to = email;
     const subject = `Email from ${name} ${email}`;
     const msg = `
-            <h1>Hello Shubham</h1>
+            <h5>Hello Shubham</h5>
+            <h5>${name} here</h5>
             <p>${message}</p>
         `;
 
