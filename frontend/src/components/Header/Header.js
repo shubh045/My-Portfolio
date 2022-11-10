@@ -2,6 +2,7 @@ import HeaderButtons from "./HeaderButtons";
 import "./header.css";
 import MyImg from "../../assets/img/My_img.png";
 import Socials from "./Socials";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -18,9 +19,9 @@ const Header = () => {
           <div className="my-img">
             <img src={MyImg} alt="me" />
           </div>
-          <a href="#footer" id="scroll">
+          <Link to="footer" id="scroll">
             Scroll Down
-          </a>
+          </Link>
         </div>
       </header>
     </>

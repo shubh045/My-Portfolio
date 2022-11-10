@@ -50,6 +50,7 @@ const Contact = () => {
     });
   };
 
+  const [clickRes, setClickRes] = useState("");
   const submitForm = async (e) => {
     e.preventDefault();
     const data = emailContent;
@@ -57,7 +58,14 @@ const Contact = () => {
       "http://localhost:8000/api/sendemail",
       data
     );
-    console.log(response.data);
+    let status = response.status;
+    if (status === 200) {
+      setClickRes("Message sent successfully.");
+    } else {
+      setClickRes("There was some problem sending message.");
+    }
+    setEmailContent({ email: "", name: "", message: "" });
+    console.log(response);
   };
 
   return (
@@ -86,6 +94,7 @@ const Contact = () => {
                 value={emailContent.name}
                 placeholder="Your Full Name"
                 onChange={changeHandler}
+                required
               />
               <input
                 type="email"
@@ -93,18 +102,25 @@ const Contact = () => {
                 value={emailContent.email}
                 placeholder="Your Email"
                 onChange={changeHandler}
+                required
               />
               <textarea
                 name="message"
-                value={emailContent.msg}
+                value={emailContent.message}
                 id="message"
                 cols="30"
                 rows="10"
                 placeholder="Your Message"
                 onChange={changeHandler}
+                required
               />
             </div>
             <button type="submit">Send Message</button>
+            {clickRes && (
+              <div className="after-click">
+                <h5>{clickRes}</h5>
+              </div>
+            )}
           </form>
         </div>
       </section>

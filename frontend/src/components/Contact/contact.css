@@ -100,6 +100,17 @@
   resize: none;
 }
 
+.after-click {
+  background-color: var(--color-bg-variant);
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 0.8rem;
+}
+
+.after-click h5 {
+  color: var(--color-white);
+}
+
 /* Responsive design */
 
 @media (max-width: 1024px) {
