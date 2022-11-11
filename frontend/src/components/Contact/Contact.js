@@ -55,7 +55,7 @@ const Contact = () => {
     e.preventDefault();
     const data = emailContent;
     const response = await axios.post(
-      "http://localhost:8000/api/sendemail",
+      "https://shubhtodolist-server.herokuapp.com/api/sendemail",
       data
     );
     let status = response.status;
