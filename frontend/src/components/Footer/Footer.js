@@ -17,13 +17,13 @@ const Footer = () => {
           <Link to="skills" className="footer-nav">
             Skills
           </Link>
-          <Link to="Experience" className="footer-nav">
+          <Link to="experience" className="footer-nav">
             Experience
           </Link>
           <Link to="projects" className="footer-nav">
             Projects
           </Link>
-          <Link to="Contact" className="footer-nav">
+          <Link to="contact" className="footer-nav">
             Contact
           </Link>
         </div>
