@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.8b4b3e30.css",
-    "main.js": "/My-Portfolio/static/js/main.70a05899.js",
-    "static/media/Portfolio1.png": "/My-Portfolio/static/media/Portfolio1.7498a97428177cf294f4.png",
-    "static/media/My_img.png": "/My-Portfolio/static/media/My_img.6e28b7706d2e19e4ee22.png",
-    "static/media/Portfolio2.png": "/My-Portfolio/static/media/Portfolio2.6ca7c20cf8943ca93d79.png",
-    "static/media/My-img.jpg": "/My-Portfolio/static/media/My-img.95dc1e4136ec6de66478.jpg",
+    "main.js": "/My-Portfolio/static/js/main.324ba36e.js",
+    "static/media/Portfolio1.png": "/My-Portfolio/static/media/Portfolio1.59dbadb43c3cb11b5bb6.png",
+    "static/media/My_img.png": "/My-Portfolio/static/media/My_img.b79d1f28bce0fc3fbad0.png",
+    "static/media/My-img.jpg": "/My-Portfolio/static/media/My-img.7e9fb4153b8fdfd3b625.jpg",
+    "static/media/Portfolio2.png": "/My-Portfolio/static/media/Portfolio2.24475639b849a8db499f.png",
     "static/media/Shubham_Resume.pdf": "/My-Portfolio/static/media/Shubham_Resume.f98cdd863f9f06204f69.pdf",
     "index.html": "/My-Portfolio/index.html",
     "main.8b4b3e30.css.map": "/My-Portfolio/static/css/main.8b4b3e30.css.map",
-    "main.70a05899.js.map": "/My-Portfolio/static/js/main.70a05899.js.map"
+    "main.324ba36e.js.map": "/My-Portfolio/static/js/main.324ba36e.js.map"
   },
   "entrypoints": [
     "static/css/main.8b4b3e30.css",
-    "static/js/main.70a05899.js"
+    "static/js/main.324ba36e.js"
   ]
 }
