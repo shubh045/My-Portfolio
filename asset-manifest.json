@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.8b4b3e30.css",
-    "main.js": "/My-Portfolio/static/js/main.324ba36e.js",
+    "main.js": "/My-Portfolio/static/js/main.ab4732c0.js",
     "static/media/Portfolio1.png": "/My-Portfolio/static/media/Portfolio1.59dbadb43c3cb11b5bb6.png",
     "static/media/My_img.png": "/My-Portfolio/static/media/My_img.b79d1f28bce0fc3fbad0.png",
     "static/media/My-img.jpg": "/My-Portfolio/static/media/My-img.7e9fb4153b8fdfd3b625.jpg",
+    "static/media/Shubham_CV.pdf": "/My-Portfolio/static/media/Shubham_CV.a031558aef45e5b880c8.pdf",
     "static/media/Portfolio2.png": "/My-Portfolio/static/media/Portfolio2.24475639b849a8db499f.png",
-    "static/media/Shubham_Resume.pdf": "/My-Portfolio/static/media/Shubham_Resume.f98cdd863f9f06204f69.pdf",
     "index.html": "/My-Portfolio/index.html",
     "main.8b4b3e30.css.map": "/My-Portfolio/static/css/main.8b4b3e30.css.map",
-    "main.324ba36e.js.map": "/My-Portfolio/static/js/main.324ba36e.js.map"
+    "main.ab4732c0.js.map": "/My-Portfolio/static/js/main.ab4732c0.js.map"
   },
   "entrypoints": [
     "static/css/main.8b4b3e30.css",
-    "static/js/main.324ba36e.js"
+    "static/js/main.ab4732c0.js"
   ]
 }
