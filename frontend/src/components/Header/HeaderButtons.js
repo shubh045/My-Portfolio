@@ -1,5 +1,5 @@
 import React from "react";
-import CV from '../../assets/Shubham_CV.pdf';
+import CV from '../../assets/Shubham-Resume-3.pdf';
 import { Link } from "react-scroll";
 const HeaderButtons = () => {
   return (
